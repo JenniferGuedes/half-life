@@ -10,4 +10,5 @@ O site comtém memórias que serão atualizadas conforme adquiridas. Totalmente 
 - City 17 Logs;
 - Xen Expansion;
 - Combine's Terminal (Interativo);
-- Achievements.
+- Achievements;
+- Kleiner's Archives.
