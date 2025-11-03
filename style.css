@@ -218,6 +218,22 @@ section p {
 
 /*CTA PAGE*/
 
+.ctaInput {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 250px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  background-color: #ffffe4;
+  color: #000;
+  text-align: center;
+}
+
+
 body.ctaPage {
   background-color: #000;
   overflow: hidden;
