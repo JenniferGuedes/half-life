@@ -90,3 +90,23 @@ form.addEventListener("submit", (e) => {
 
   typeResponse(output, response);
 });
+
+//Kleiner's Archives
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector("#unlock-form");
+  const passwordInput = document.querySelector("#password");
+  const gallery = document.querySelector("#gallery");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const input = passwordInput.value;
+
+    if (input === "borabill") {
+      gallery.classList.remove("hidden");
+      gallery.classList.add("visible");
+    } else {
+      alert("Senha incorreta. Acesso negado pelo Dr. Kleiner.");
+    }
+  });
+});

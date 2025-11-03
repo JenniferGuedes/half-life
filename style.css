@@ -4,6 +4,10 @@ html{
  scroll-behavior: smooth;
 }
 
+body{
+  text-align:justify;
+}
+
 /*Navbar*/
 nav{
   display: flex;
@@ -487,4 +491,66 @@ article.reveal time {
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
+}
+
+
+/*Photos*/
+#archives {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #ffffe4;
+  font-family: 'Montserrat', monospace;
+}
+
+#unlock-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #db9860;
+  background-color: #000;
+  color: #ffffe4;
+  width: 60%;
+}
+
+#unlock-form button {
+  padding: 10px 20px;
+  background-color: #db9860;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#gallery {
+  margin-top: 40px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+#gallery.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#gallery img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #f56f16;
+  margin-bottom: 10px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
 }
