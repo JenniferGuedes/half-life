@@ -41,7 +41,6 @@ document.querySelectorAll("article").forEach(article => {
   });
 });
 
-// Terminal Combine
 
 // Terminal Combine
 
@@ -112,3 +111,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+//CTA Page Password
+ function verificarSenha() {
+    const senha = document.getElementById("senha").value;
+    if (senha === "vortigaunt") {
+      window.location.href = "us.html"; 
+    } else {
+      alert("Senha incorreta. Acesso negado pelo Dr. Kleiner.");
+    }
+  }
