@@ -97,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector("#unlock-form");
   const passwordInput = document.querySelector("#password");
   const gallery = document.querySelector("#gallery");
+  const video = gallery.querySelector("video");
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
@@ -105,19 +106,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (input === "borabill") {
       gallery.classList.remove("hidden");
       gallery.classList.add("visible");
+      video.classList.remove("hidden");
     } else {
       alert("Senha incorreta. Acesso negado pelo Dr. Kleiner.");
     }
   });
 });
-
-//cta page
-  function verificarSenha() {
-    const senha = document.getElementById("senha").value;
-    if (senha === "vortigaunt") {
-      window.location.href = "./us.html"; 
-    } else {
-      alert("Senha incorreta. Acesso negado pelo Dr. Kleiner.");
-    }
-  }
-
