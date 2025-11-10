@@ -43,11 +43,13 @@
 
 
  <section class="ctaHeader">
-  <h1>Oi, querido!</h1>
-  <h2>Decifre o código do G-Man para prosseguir!</h2>
+  <h1>Hello, Gordon!</h1>
+  <h2>Decifre o código do G-Man para prosseguir</h2>
+  <form onsubmit="verificarSenha(); return false;">
   <input type="password" id="senha" class="ctaInput" placeholder="Sua senha aqui">
-  <button onclick="verificarSenha()" class="ctaButton">Entrar</button>
-</section>
+  <button type="submit" class="ctaButton">Entrar</button>
+</form>
+
 <script src="script.js"></script>
 
 
