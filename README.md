@@ -9,6 +9,7 @@ O site contém memórias que serão atualizadas conforme adquiridas. Totalmente 
 - Lambda Core;
 - City 17 Logs;
 - Xen Expansion;
-- Combine's Terminal (Interativo);
-- Achievements (Interativo);
-- Kleiner's Archives (Interativo).
+- Combine's Terminal (Interativo por escrita);
+- Achievements (Interativo por cliques);
+- Kleiner's Archives (Interativo por senha).
+
