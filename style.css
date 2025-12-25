@@ -235,6 +235,13 @@ section p {
   pointer-events: none;
 }
 
+.video{
+  width: 60%;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #f56f16;
+  display: block; 
+  margin: 20px auto;
+}
 
 
 /*CTA PAGE*/
